@@ -1,0 +1,103 @@
+Python Basics — Simple Points
+1. Python Introduction
+Python → high-level, easy programming language.
+Uses → web apps, automation, data science, AI, games.
+
+2. Variables
+Store data.
+Example: x = 10
+
+3. Data Types
+int → whole numbers
+float → decimal
+str → text
+bool → True/False
+list, tuple, set, dict → collections
+
+4. Input / Output
+input() → take user input
+print() → show output
+
+5. Operators
+Arithmetic → + - * / % // **
+Comparison → == != > <
+Logical → and or not
+Assignment → = += -=
+
+6. Strings
+Text inside quotes "Hello"
+Concatenate → "Hi " + name
+Functions → .upper(), .lower(), .split()
+
+7. Lists
+Ordered, changeable.
+Example: a = [1, 2, 3]
+Methods → .append(), .remove(), .pop()
+
+8. Tuples
+Ordered, not changeable.
+Example: (1, 2, 3)
+
+9. Sets
+Unordered, no duplicates.
+Example: {1, 2, 3}
+
+10. Dictionary
+Key–value pairs.
+Example: {"name": "Tom", "age": 20}
+
+11. Conditional Statements
+Make decisions.
+if condition:
+    ...
+elif condition:
+    ...
+else:
+    ...
+
+12. Loops
+for loop → repeat over sequence
+for i in range(5):
+    print(i)
+while loop → repeat until condition false
+while x < 5:
+    x += 1
+
+13. Functions
+Reusable code.
+def add(a, b):
+    return a + b
+
+14. Modules
+Pre-written Python code.
+Import → import math
+
+15. Exceptions (Error Handling)
+try:
+    ...
+except:
+    ...
+
+16. File Handling
+f = open("file.txt", "r")
+data = f.read()
+f.close()
+
+17. Classes & Objects (OOP)
+Class → blueprint
+Object → instance
+class Dog:
+    def bark(self):
+        print("Woof")
+
+18. Comments
+Explain code.
+# This is a comment
+
+19. Indentation
+Space at line start → defines code blocks.
+Very important in Python.
+
+20. Libraries
+External tools for extra features.
+Examples: numpy, pandas, tkinter.
